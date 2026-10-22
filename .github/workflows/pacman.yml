@@ -15,7 +15,7 @@ jobs:
       - name: Generate Pac-Man SVGs
         uses: abozanona/pacman-contribution-graph@main
         with:
-          github_user_name: silviasylee03
+          github_user_name: BBungya
           games: pacman
       - name: Publish SVGs
         uses: crazy-max/ghaction-github-pages@v3.1.0
