@@ -1,0 +1,45 @@
+name: Generate profile stats
+
+on:
+  schedule:
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v6
+      - name: Generate stats card
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: stats
+          options: username=BBungya&show_icons=true&include_all_commits=true&theme=dracula
+          path: stats/stats.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fail_on_error: true
+      - name: Generate languages card
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: top-langs
+          options: username=BBungya&layout=compact&card_width=320&langs_count=5&theme=dracula
+          path: languages/languages.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fail_on_error: true
+      - name: Publish stats card
+        uses: crazy-max/ghaction-github-pages@v3.1.0
+        with:
+          target_branch: stats-output
+          build_dir: stats
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Publish languages card
+        uses: crazy-max/ghaction-github-pages@v3.1.0
+        with:
+          target_branch: languages-output
+          build_dir: languages
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
