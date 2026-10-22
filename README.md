@@ -3,8 +3,8 @@
 ###
 
 <div data-importer="stats" align="center">
-  <img src="https://raw.githubusercontent.com/silviasylee03/silviasylee03/stats-output/stats.svg" height="150" alt="stats graph"  />
-  <img src="https://raw.githubusercontent.com/silviasylee03/silviasylee03/languages-output/languages.svg" height="150" alt="languages graph"  />
+  <img src="https://raw.githubusercontent.com/BBungya/BBungya/stats-output/stats.svg" height="150" alt="stats graph"  />
+  <img src="https://raw.githubusercontent.com/BBungya/BBungya/languages-output/languages.svg" height="150" alt="languages graph"  />
 </div>
 
 ###
@@ -71,9 +71,9 @@
 <br clear="both">
 
 <picture data-importer="pacman">
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/silviasylee03/silviasylee03/pacman-output/pacman-contribution-graph-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/silviasylee03/silviasylee03/pacman-output/pacman-contribution-graph.svg">
-  <img alt="Pac-Man contribution graph" src="https://raw.githubusercontent.com/silviasylee03/silviasylee03/pacman-output/pacman-contribution-graph.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/BBungya/BBungya/pacman-output/pacman-contribution-graph-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/BBungya/BBungya/pacman-output/pacman-contribution-graph.svg">
+  <img alt="Pac-Man contribution graph" src="https://raw.githubusercontent.com/BBungya/BBungya/pacman-output/pacman-contribution-graph.svg">
 </picture>
 
 ###
