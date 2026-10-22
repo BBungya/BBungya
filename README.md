@@ -64,6 +64,7 @@
   <a href="https://sylee111.tistory.com/"><img src="https://img.shields.io/badge/Blog-FF5544?style=for-the-badge&logo=tistory&logoColor=white" height="35" alt="Tech Blog" /></a>
   <!-- <a href="https://merciful-dance-b7d.notion.site/3ba5fa1834ae8061b5f5cec573053120"><img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=notion&logoColor=white" height="35" alt="Portfolio" /></a> -->
   <a href="https://github.com/BBungya"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" height="35" alt="GitHub" /></a>
+  <a href="https://www.linkedin.com/in/%EC%86%8C%EC%97%B0-%EC%9D%B4-4b0012380/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge" height="35" alt="LinkedIn" /></a>
 </div>
 
 ###
