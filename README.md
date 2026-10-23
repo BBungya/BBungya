@@ -13,7 +13,6 @@
 
 ###
 
-<hr>
 <h3>💻 Languages</h3>
 <div align="left">
   <img src="https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&amp;logo=kotlin&amp;logoColor=white" height="28" alt="Kotlin" />
