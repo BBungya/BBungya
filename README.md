@@ -9,7 +9,7 @@
 
 ###
 
-<img src="./assets/cheese-cat-divider-v5.gif" width="100%" alt="밤길을 걷는 치즈 고양이">
+<img src="./assets/cheese-cat-divider-short-flowers.gif" width="100%" alt="밤길을 걷는 치즈 고양이">
 
 ###
 
